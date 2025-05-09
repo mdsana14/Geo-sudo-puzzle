@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Geo-Sudo Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen">
+  <h1>🎯 Welcome to Geo-Sudo Challenge 🎯</h1>
+  <button id="startFixed">Start Fixed Puzzle ▶️</button>
+  <button id="startRandom">Start Random Puzzle 🎲</button>
+</div>
+
+<div id="gameScreen" style="display: none;">
+  <div class="logo">
+    <span class="geo">Geo</span><span class="sudo">Sudo</span> <span class="challenge">Challenge</span> 🎯
+  </div>
+  <div id="scoreboard">Score: 0</div>
+  <div id="grid"></div>
+  <div id="options"></div>
+  <div id="feedback"></div>
+  <div id="leaderboard">Leaderboard: 0</div>
+  <button id="nextPuzzle">Next Puzzle ➡️</button>
+  <button id="retry">Retry 🔄</button>
+  <button id="exitGame">Exit ❌</button>
+</div>
+
+<canvas id="confetti-canvas"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
