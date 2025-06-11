@@ -20,6 +20,7 @@ A fun and interactive logic puzzle game inspired by Sudoku — but with shapes i
 - CSS
 - JavaScript
 
+Your site is live at https://mdsana14.github.io/Geo-sudo-puzzle/
 
 ---
 
